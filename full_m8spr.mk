@@ -24,7 +24,10 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from m8 device
+# Inherit from msm8974-common
+$(call inherit-product, device/htc/msm8974-common/msm8974.mk)
+
+# Inherit from m8spr device next for overrides
 $(call inherit-product, device/htc/m8spr/device.mk)
 
 # Set those variables here to overwrite the inherited values.
