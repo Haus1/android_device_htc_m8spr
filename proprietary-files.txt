@@ -1,5 +1,6 @@
 # Device proprietary files
 
+bin/irsc_util
 bin/mpdecision
 bin/qmuxd
 bin/mm-qcamera-daemon
