@@ -273,8 +273,14 @@ lib/libxml.so
 lib/libchromatix_skuf_ov12830_p12v01c_preview.so
 lib/libadsprpc.so
 
-# Egl props
+# QSEECOMAPI props
+vendor/firmware/keymaster.b00
+vendor/firmware/keymaster.b01
+vendor/firmware/keymaster.b02
+vendor/firmware/keymaster.b03
+vendor/firmware/keymaster.mdt
 
+# Egl props
 vendor/lib/egl/eglsubAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
