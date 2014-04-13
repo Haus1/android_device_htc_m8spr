@@ -1,0 +1,21 @@
+# system.prop for m8vzw
+#
+
+telephony.lteOnCdmaDevice=1
+gsm.sim.operator.alpha=Chameleon
+gsm.sim.operator.numeric=000000
+gsm.sim.operator.iso-country=us
+gsm.operator.alpha=Chameleon
+gsm.operator.numeric=000000
+gsm.operator.iso-country=us
+ro.cdma.home.operator.alpha=HTC
+ro.cdma.home.operator.numeric=000000
+ro.telephony.default_network=8
+ro.telephony.default_cdma_sub=1
+ro.ril.oem.ecclist=911
+ro.ril.disable.fd.plmn.prefix=23402,23410,23411,23420
+ro.ril.enable.sdr=0
+ro.ril.set.mtusize=1422
+ro.gps.agps_provider=1
+persist.radio.snapshot_enabled = 1
+persist.radio.snapshot_timer = 22
