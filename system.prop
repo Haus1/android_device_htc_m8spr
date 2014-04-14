@@ -2,14 +2,14 @@
 #
 
 telephony.lteOnCdmaDevice=1
-gsm.sim.operator.alpha=Chameleon
-gsm.sim.operator.numeric=000000
+gsm.sim.operator.alpha=Sprint
+gsm.sim.operator.numeric=310120
 gsm.sim.operator.iso-country=us
 gsm.operator.alpha=Chameleon
-gsm.operator.numeric=000000
+gsm.operator.numeric=310120
 gsm.operator.iso-country=us
-ro.cdma.home.operator.alpha=HTC
-ro.cdma.home.operator.numeric=000000
+ro.cdma.home.operator.alpha=Sprint
+ro.cdma.home.operator.numeric=310120
 ro.telephony.default_network=8
 ro.telephony.default_cdma_sub=1
 ro.ril.oem.ecclist=911
