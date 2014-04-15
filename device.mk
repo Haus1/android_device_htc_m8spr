@@ -12,7 +12,7 @@
 #
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/htc/m8/m8-vendor.mk)
+$(call inherit-product-if-exists, vendor/htc/m8spr/m8spr-vendor.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
