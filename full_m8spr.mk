@@ -21,10 +21,8 @@
 # lines, full and maguro, hence its name.
 #
 
-$(call inherit-product, device/htc/msm8974-common/msm8974.mk)
-
-# Inherit m8spr-specific vendor tree
-$(call inherit-product-if-exists, vendor/htc/m8spr/m8spr-vendor.mk)
+# Inherit from m8spr device
+$(call inherit-product, device/htc/m8spr/device.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_m8spr

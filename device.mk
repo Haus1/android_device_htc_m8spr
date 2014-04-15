@@ -10,9 +10,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-# call the proprietary setup
+# Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/htc/m8spr/m8spr-vendor.mk)
+
+# Inherit from HTC msm8974-common
+$(call inherit-product, device/htc/msm8974-common/msm8974.mk)
+
+# Device overlay
+DEVICE_PACKAGE_OVERLAYS += device/htc/m8spr/overlay
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
