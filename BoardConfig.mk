@@ -27,6 +27,9 @@
 # inherit from common msm8974
 -include device/htc/msm8974-common/BoardConfigCommon.mk
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := m8whl,m8spr
+
 TARGET_KERNEL_CONFIG := cm_m8whl_defconfig
 
 # cat /proc/emmc
