@@ -1,0 +1,2 @@
+add_lunch_combo omni_m8spr-eng
+add_lunch_combo omni_m8spr-userdebug

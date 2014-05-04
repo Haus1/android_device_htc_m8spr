@@ -79,3 +79,5 @@ TARGET_OTA_ASSERT_DEVICE := m8whl,m8spr
 # mmcblk0p45: a8000000  00000200  "system"
 # mmcblk0p46: 18000000  00000200  "cache"
 # mmcblk0p47: b8000000  00000200  "userdata"
+
+TARGET_KERNEL_CONFIG := cm_m8whl_defconfig
